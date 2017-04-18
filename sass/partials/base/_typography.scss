@@ -1,0 +1,80 @@
+//Typography
+
+
+@font-face {
+    font-family: 'arvo_regular';
+    src: url('../fonts/arvo-regular-webfont.woff2') format('woff2'),
+         url('../fonts/arvo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lato_black';
+    src: url('../fonts/lato-black-webfont.woff2') format('woff2'),
+         url('../fonts/lato-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+// menu typography 
+
+.nav-menu a {
+    font: 18px 'Arvo', serif;
+    color: white;
+    text-decoration: none;   
+}
+
+@media screen and (max-width: 765px) {
+    
+    .nav-menu a {
+        font: 10px 'Arvo', serif;
+    }
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+
+.btn {
+    font: 16px 'arvo_regular', sans-serif;
+}
+
+.nav-sidebar a {
+    color: $titles-color;
+    font: 18px 'lato_black', sans-serif;
+}
+
+.nav-sidebar span {
+    color: $primary-color;
+    font: 14px 'lato_black', sans-serif;
+
+}
+
+//titles typography
+
+h1, h2, h3, h4, h5 {
+    font-family: 'lato_black', sans-serif; 
+    color: $titles-color;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 16px;
+    color: $second-color;
+}

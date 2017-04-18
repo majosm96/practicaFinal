@@ -1,0 +1,23 @@
+//Reset
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	width: 100%;
+	background-image: url(../img/background.jpg);
+}
+//General
+
+.main-wrapper {
+	width: 90%;
+	margin-top: 30px;
+	margin: auto;
+	background-color: $background-color;
+}
+
+p {
+	margin: 10px 0 10px 0;
+}

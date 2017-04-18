@@ -1,0 +1,176 @@
+//Conteiners
+
+//Slider
+
+.slider {
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 50px;
+	height: 400px;
+	border: 1px solid #fff;
+	background-color: $primary-color;
+}
+
+.section-slider h1 {
+	color: #6b3b25;
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	margin: 20px;
+}
+
+.section-slider {
+	border-bottom: 1px solid #6b3b25;
+	border-width: 90%;
+}
+
+
+//articles
+
+.img-1 {
+	height: 390px;
+}
+
+.articles {
+	width: 100%;
+	margin: 20px 0 60px 0; 
+	display: inline-block;
+	text-align: center;
+}
+
+.article {
+	margin: 0 auto;
+	width: 32%;
+	margin: 7px;
+	float: left;
+	box-sizing: border-box;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+	
+	.article {
+		width: 50%;
+		margin: 50px;
+		box-sizing: border-box;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	
+	.article {
+		width: 100%;
+		margin: 50px;
+		box-sizing: border-box;
+		margin: 0 auto;
+	}
+}
+//last section 
+
+.lastSection {
+	width: 100%;
+	display: flex;
+	border-bottom: 4px solid $second-color;
+	padding-bottom: 50px;
+}
+
+.lastSection h3 {
+	padding: 10px 0 10px 0;
+	border-bottom: 2px solid $color-line;
+}
+
+.recentPosts {
+	width: 30%;
+	margin: 10px;
+	box-sizing: border-box;
+}
+
+.nav-sidebar {
+
+	ul {	
+	 	list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    overflow: hidden;	 
+	}
+	
+	li {
+
+		 a {
+    		display: block;
+    		text-decoration: none;
+    		padding: 14px 16px;
+    		border-bottom: 1px solid $color-line;
+		}
+	}
+}
+
+
+.featureVideo {
+	width: 70%;
+	margin: 10px;
+	box-sizing: border-box;
+}
+
+.featureVideo video {
+	width: 100%    !important;
+  	height: auto   !important;
+  	margin: 20px 0 20px 0;
+}
+
+
+//releted work
+
+.reletedWork h3 {
+	margin: 30px;
+	border-bottom: 1px solid $color-line;
+}
+
+.project {
+	width: 100%;
+}
+
+.project h2 {
+	border-bottom: 1px solid $color-line;
+	border-top: 2px solid $color-line;
+	padding: 10px;
+}
+
+.info {
+	width: 40%;
+	padding: 20px;
+	box-sizing: border-box;
+	float: right;
+}
+
+.intro {
+	font-size: 18px;
+	margin: 20px 0 20px 0;
+}
+
+.imgs {
+	width: 60%;
+	margin: 30px;
+	box-sizing: border-box;
+}
+
+.imgs img{
+	height: auto;
+	margin: 20px 0 20px 0;
+	width: 80%;
+}
+
+@media screen and (max-width: 720px) {
+	
+	.info {
+		width: 100%;
+		float: none;
+	}
+
+	.imgs {
+		width: 100%;
+	}
+}

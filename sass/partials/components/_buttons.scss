@@ -1,0 +1,22 @@
+// Buttons
+
+.btn-article {
+	width: 101px;
+    height: 22px;
+    margin: 10px;
+}
+
+.btn {
+    text-align: center;
+	display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid $second-color;
+    background-color: $primary-color;
+    box-shadow: 1px 1px 5px grey;
+}
+
+
+.btn-project {
+	width: 105px;
+}
